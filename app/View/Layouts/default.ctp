@@ -37,28 +37,33 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 </head>
 <body>
 
-	<div class="w3-bar w3-white w3-border-bottom w3-xlarge">
-  		<a href="/" class="w3-bar-item w3-button w3-text-black w3-hover-black"><b><i class="fa fa-map-marker w3-margin-right"></i> Greg Surveys  </b></a>
-  		<a href="#" class="w3-bar-item w3-button w3-right w3-hover-red w3-text-grey"><i class="fa fa-search"></i></a>
-  		<a href="/register" class="w3-bar-item w3-button w3-text-black w3-hover-black" style="float:right;"><b><i class="fa fa-map-marker w3-margin-left"></i> Sign Up </b></a>
-  		<a href="/login" class="w3-bar-item w3-button w3-text-black w3-hover-black" style="float:right;"><b><i class="fa fa-map-marker w3-margin-left"></i> Login </b></a>
+	<div>
+		<br>
+  		<a href="/"><b><i></i> Greg Surveys  </b></a>
+  		<br>
+  		<a href="/register"> Sign Up </a>
+  		<br>
+  		<a href="/login"> Login</a>
+  		<br>
+  		<a href="/"> About </a>
   		
 	</div>
 
-	<div id="w3-bar w3-white w3-border-bottom w3-xlarge" >
+	<div >
 		
-		<div id="content">
+		<div>
 			<?php echo $this->Flash->render(); ?>
 			<?php echo $this->fetch('content'); ?>
 		</div>
 		
 	</div>
-	<?php //echo $this->element('sql_dump'); ?>
+
+	<?php echo $this->element('sql_dump'); ?>
 
 
-	<footer class="w3-padding-32 w3-black w3-center w3-margin-top">
+<footer >
   <h5>Note</h5>
-  <div class="w3-xlarge w3-padding-16">
+  <div>
     
     <h5>This website is purely for educational purposes. Please do not use real login credentials or emails. </h6>
   </div>

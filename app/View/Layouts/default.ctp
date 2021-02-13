@@ -38,33 +38,31 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <body>
 
 	<div class="w3-bar w3-white w3-border-bottom w3-xlarge">
-  		<a href="/index.php" class="w3-bar-item w3-button w3-text-black w3-hover-black"><b><i class="fa fa-map-marker w3-margin-right"></i> Greg Surveys  </b></a>
+  		<a href="/" class="w3-bar-item w3-button w3-text-black w3-hover-black"><b><i class="fa fa-map-marker w3-margin-right"></i> Greg Surveys  </b></a>
   		<a href="#" class="w3-bar-item w3-button w3-right w3-hover-red w3-text-grey"><i class="fa fa-search"></i></a>
-  		<a href="/login" class="w3-bar-item w3-button w3-text-black w3-hover-black"><b><i class="fa fa-map-marker w3-margin-left"></i> login </b></a>
+  		<a href="/register" class="w3-bar-item w3-button w3-text-black w3-hover-black" style="float:right;"><b><i class="fa fa-map-marker w3-margin-left"></i> Sign Up </b></a>
+  		<a href="/login" class="w3-bar-item w3-button w3-text-black w3-hover-black" style="float:right;"><b><i class="fa fa-map-marker w3-margin-left"></i> Login </b></a>
+  		
 	</div>
 
-	<div id="w3-bar w3-white w3-border-bottom w3-xlarge">
-		<div id="Flight">
-			
-		</div>
+	<div id="w3-bar w3-white w3-border-bottom w3-xlarge" >
+		
 		<div id="content">
-
 			<?php echo $this->Flash->render(); ?>
-
 			<?php echo $this->fetch('content'); ?>
 		</div>
-		<div id="footer">
-			<?php echo $this->Html->link(
-					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
-					'https://cakephp.org/',
-					array('target' => '_blank', 'escape' => false, 'id' => 'cake-powered')
-				);
-			?>
-			<p>
-				<?php echo $cakeVersion; ?>
-			</p>
-		</div>
+		
 	</div>
-	<?php echo $this->element('sql_dump'); ?>
+	<?php //echo $this->element('sql_dump'); ?>
+
+
+	<footer class="w3-padding-32 w3-black w3-center w3-margin-top">
+  <h5>Note</h5>
+  <div class="w3-xlarge w3-padding-16">
+    
+    <h5>This website is purely for educational purposes. Please do not use real login credentials or emails. </h6>
+  </div>
+</footer>
+
 </body>
 </html>

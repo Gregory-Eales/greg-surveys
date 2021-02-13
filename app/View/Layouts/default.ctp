@@ -38,8 +38,9 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <body>
 
 	<div class="w3-bar w3-white w3-border-bottom w3-xlarge">
-  		<a href="#" class="w3-bar-item w3-button w3-text-black w3-hover-black"><b><i class="fa fa-map-marker w3-margin-right"></i> Greg Surveys  </b></a>
+  		<a href="/index.php" class="w3-bar-item w3-button w3-text-black w3-hover-black"><b><i class="fa fa-map-marker w3-margin-right"></i> Greg Surveys  </b></a>
   		<a href="#" class="w3-bar-item w3-button w3-right w3-hover-red w3-text-grey"><i class="fa fa-search"></i></a>
+  		<a href="/login" class="w3-bar-item w3-button w3-text-black w3-hover-black"><b><i class="fa fa-map-marker w3-margin-left"></i> login </b></a>
 	</div>
 
 	<div id="w3-bar w3-white w3-border-bottom w3-xlarge">

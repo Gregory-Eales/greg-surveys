@@ -13,6 +13,12 @@ class UsersController extends AppController
 	}
 
 
+	public function hello()
+	{
+		echo "Hello";
+	}
+
+
 
 }
 

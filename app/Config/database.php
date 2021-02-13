@@ -72,8 +72,8 @@ class DATABASE_CONFIG {
 		'port' => '8889',
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => 'roor',
-		'database' => 'database_name',
+		'password' => 'root',
+		'database' => 'users',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);

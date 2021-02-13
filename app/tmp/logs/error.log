@@ -260,3 +260,25 @@ Request URL: /home
 Stack Trace:
 #0 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2021-02-13 18:01:12 Error: [MissingActionException] Action UsersController::greg() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'greg',
+)
+Request URL: /Users/greg/Sites/phpmyadmin
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-02-13 18:01:16 Error: [MissingActionException] Action UsersController::greg() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'greg',
+)
+Request URL: /Users/greg/Sites/phpmyadmin
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

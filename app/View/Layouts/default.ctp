@@ -41,9 +41,9 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		<br>
   		<a href="/"><b><i></i> Greg Surveys  </b></a>
   		<br>
-  		<a href="/register"> Sign Up </a>
+  		<a href="/registers"> Sign Up </a>
   		<br>
-  		<a href="/login"> Login</a>
+  		<a href="/logins"> Login</a>
   		<br>
   		<a href="/"> About </a>
   		

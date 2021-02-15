@@ -233,3 +233,309 @@ Stack Trace:
 #13 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AccountsController), Object(CakeRequest))
 #14 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #15 {main}
+2021-02-15 05:33:03 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or ','
+Request URL: /accounts/register
+Stack Trace:
+#0 [internal function]: App::load('AccountsControl...')
+#1 [internal function]: spl_autoload_call('AccountsControl...')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(266): class_exists('AccountsControl...')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-02-15 05:33:10 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or ','
+Request URL: /accounts/register
+Stack Trace:
+#0 [internal function]: App::load('AccountsControl...')
+#1 [internal function]: spl_autoload_call('AccountsControl...')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(266): class_exists('AccountsControl...')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-02-15 05:39:09 Error: [ParseError] syntax error, unexpected '}', expecting ';' or ','
+Request URL: /accounts/login
+Stack Trace:
+#0 [internal function]: App::load('AccountsControl...')
+#1 [internal function]: spl_autoload_call('AccountsControl...')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(266): class_exists('AccountsControl...')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-02-15 05:39:32 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /accounts/login
+Stack Trace:
+#0 [internal function]: App::load('AccountsControl...')
+#1 [internal function]: spl_autoload_call('AccountsControl...')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(266): class_exists('AccountsControl...')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-02-15 05:39:49 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /accounts/login
+Stack Trace:
+#0 [internal function]: App::load('AccountsControl...')
+#1 [internal function]: spl_autoload_call('AccountsControl...')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(266): class_exists('AccountsControl...')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-02-15 05:43:57 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /accounts/login
+Stack Trace:
+#0 [internal function]: App::load('AccountsControl...')
+#1 [internal function]: spl_autoload_call('AccountsControl...')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(266): class_exists('AccountsControl...')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-02-15 05:44:43 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /accounts/login
+Stack Trace:
+#0 [internal function]: App::load('AccountsControl...')
+#1 [internal function]: spl_autoload_call('AccountsControl...')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(266): class_exists('AccountsControl...')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-02-15 05:45:19 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /accounts/login
+Stack Trace:
+#0 [internal function]: App::load('AccountsControl...')
+#1 [internal function]: spl_autoload_call('AccountsControl...')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(266): class_exists('AccountsControl...')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-02-15 05:47:25 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /accounts/login
+Stack Trace:
+#0 [internal function]: App::load('AccountsControl...')
+#1 [internal function]: spl_autoload_call('AccountsControl...')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(266): class_exists('AccountsControl...')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-02-15 05:53:50 Error: [ParseError] syntax error, unexpected 'if' (T_IF)
+Request URL: /accounts/login
+Stack Trace:
+#0 [internal function]: App::load('AccountsControl...')
+#1 [internal function]: spl_autoload_call('AccountsControl...')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(266): class_exists('AccountsControl...')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-02-15 05:53:51 Error: [ParseError] syntax error, unexpected 'if' (T_IF)
+Request URL: /accounts/register
+Stack Trace:
+#0 [internal function]: App::load('AccountsControl...')
+#1 [internal function]: spl_autoload_call('AccountsControl...')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(266): class_exists('AccountsControl...')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-02-15 06:03:36 Error: [ParseError] syntax error, unexpected '?>'
+Request URL: /accounts/
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/View/View.php(933): View->_evaluate('/Users/greg/Rep...', Array)
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/View/View.php(546): View->_render('/Users/greg/Rep...')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/View/View.php(481): View->renderLayout('<div class="acc...', 'default')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'default')
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AccountsController), Object(CakeRequest))
+#6 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2021-02-15 06:03:36 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2021-02-15 06:03:36 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /accounts/
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Core/App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2021-02-15 06:07:33 Error: [ParseError] syntax error, unexpected '}', expecting ';' or ','
+Request URL: /accounts/login
+Stack Trace:
+#0 [internal function]: App::load('AppController')
+#1 /Users/greg/Repositories/greg-surveys/app/Controller/AccountsController.php(9): spl_autoload_call('AppController')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Core/App.php(567): include('/Users/greg/Rep...')
+#3 [internal function]: App::load('AccountsControl...')
+#4 [internal function]: spl_autoload_call('AccountsControl...')
+#5 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(266): class_exists('AccountsControl...')
+#6 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#7 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#8 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2021-02-15 06:07:33 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2021-02-15 06:07:33 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Core/App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2021-02-15 06:10:03 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Core/App.php(227): CakePlugin::path('DebugKit')
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Core/App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#6 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(649): ComponentCollection->init(Object(AccountsController))
+#7 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#8 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AccountsController), Object(CakeRequest))
+#9 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2021-02-15 06:13:42 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-02-15 06:15:45 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-02-15 06:18:54 Error: [MissingActionException] Action UsersController::register() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'register',
+)
+Request URL: /users/register
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-02-15 06:36:43 Error: [Error] Call to a member function find() on null
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-02-15 06:37:33 Error: [Error] Call to a member function find() on null
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-02-15 06:37:42 Error: [Error] Call to a member function find() on null
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-02-15 06:39:34 Error: [Error] Call to undefined function check_existing_username()
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-02-15 06:39:57 Error: [Error] Call to undefined function check_existing_username()
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-02-15 06:45:24 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /users/register
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-02-15 06:45:32 Error: [MissingTableException] Table accounts for model Account was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'accounts',
+  'class' => 'Account',
+  'ds' => 'default',
+)
+Request URL: /users/register
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3686): Model->setSource('accounts')
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(1394): Model->getDataSource()
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Account', 'fields')
+#4 /Users/greg/Repositories/greg-surveys/app/View/Users/register.ctp(5): FormHelper->create('Account')
+#5 /Users/greg/Repositories/greg-surveys/lib/Cake/View/View.php(971): include('/Users/greg/Rep...')
+#6 /Users/greg/Repositories/greg-surveys/lib/Cake/View/View.php(933): View->_evaluate('/Users/greg/Rep...', Array)
+#7 /Users/greg/Repositories/greg-surveys/lib/Cake/View/View.php(473): View->_render('/Users/greg/Rep...')
+#8 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#9 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2021-02-15 06:46:40 Error: [PDOException] SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'password' at row 1
+Request URL: /users/register
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `su...', Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `su...')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Users/greg/Repositories/greg-surveys/app/Controller/UsersController.php(161): Model->save(Array)
+#6 [internal function]: UsersController->register()
+#7 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2021-02-15 06:47:25 Error: [PDOException] SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'password' at row 1
+Request URL: /users/register
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `su...', Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `su...')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Users/greg/Repositories/greg-surveys/app/Controller/UsersController.php(161): Model->save(Array)
+#6 [internal function]: UsersController->register()
+#7 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}

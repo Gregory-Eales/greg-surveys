@@ -1,10 +1,10 @@
 <?php
 App::uses('AppModel', 'Model');
 /**
- * Account Model
+ * User Model
  *
  */
-class Account extends AppModel {
+class User extends AppModel {
 
 /**
  * Primary key field

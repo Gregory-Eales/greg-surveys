@@ -128,7 +128,7 @@ class UsersController extends AppController {
 					return $this->redirect($this->Auth->redirectUrl());
 				} else
 				{
-					$this->Session->setFlash("invalid username or password");
+					$this->Session->setFlash('<div class="flash">invalid username or password</div>');
 				}
 				
 			}
@@ -162,7 +162,7 @@ class UsersController extends AppController {
 					}
 				}else
 				{
-					$this->Session->setFlash('This email is already in use!');
+					$this->Session->setFlash('<div class="flash"> This username is in use!</div>');
 				}
 				
 			}

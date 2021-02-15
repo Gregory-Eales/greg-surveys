@@ -670,3 +670,12 @@ Stack Trace:
 #3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AboutController), Object(CakeRequest))
 #4 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2021-02-15 08:31:44 Error: [Error] Call to a member function success() on null
+Request URL: /users/delete/10
+Stack Trace:
+#0 [internal function]: UsersController->delete('10')
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

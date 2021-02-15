@@ -8,12 +8,11 @@ App::uses('AppController', 'Controller');
  */
 
 
-
 function check_existing_email($accounts, $email)
 	{
 		foreach($accounts as $a)
 		{
-				if($a['User']['email']==$email)
+				if($a['User']['username']==$email)
 				{
 					return true;
 				}
@@ -22,6 +21,7 @@ function check_existing_email($accounts, $email)
 
 		return false;
 	}
+
 
 class UsersController extends AppController {
 
@@ -122,25 +122,22 @@ class UsersController extends AppController {
 	{
 		if($this->request->is('post'))
 			{
-				$users = $this->User->find('all');
-				$email = $this->request->data['User']['email'];
-				$exists = check_existing_email($users, $email);
 				
-				if($exists)
+				if($this->Auth->login())
 				{
-					
-					echo "login triggered";
-
-				}else
+					return $this->redirect($this->Auth->redirectUrl());
+				} else
 				{
-					$this->Session->setFlash('This email is not linked to an account');
+					$this->Session->setFlash("invalid username or password");
 				}
 				
 			}
 	}
 
-	public function logout() {
-
+	public function logout()
+	{
+		$this->Auth->logout();
+		$this->redirect('/users/login');
 	}
 
 	public function register()
@@ -149,7 +146,7 @@ class UsersController extends AppController {
 			if($this->request->is('post'))
 			{
 				$users = $this->User->find('all');
-				$email = $this->request->data['User']['email'];
+				$email = $this->request->data['User']['username'];
 				$exists = check_existing_email($users, $email);
 				if($exists==false)
 				{
@@ -160,7 +157,7 @@ class UsersController extends AppController {
 					$this->User->create();
 					if($this->User->save($this->request->data))
 					{
-						$this->Session->setFlash('Account has been created!');
+						$this->Session->setFlash('<div class="flash"> Account has been created!</div>');
 						$this->redirect('login');
 					}
 				}else
@@ -176,4 +173,5 @@ class UsersController extends AppController {
 	{
 		$this->Auth->allow('register');
 	}
+
 }

@@ -4,7 +4,7 @@
 		<legend><?php echo __('Edit User'); ?></legend>
 	<?php
 		echo $this->Form->input('account_id');
-		echo $this->Form->input('email');
+		echo $this->Form->input('username');
 		echo $this->Form->input('password');
 		echo $this->Form->input('is_panelist');
 		echo $this->Form->input('points');

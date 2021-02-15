@@ -36,38 +36,28 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	?>
 </head>
 <body>
+	<div id="container">
+		<div id="header">
+			<h1><?php echo $this->Html->link($cakeDescription, 'https://cakephp.org'); ?></h1>
+		</div>
+		<div id="content">
 
-	<div>
-		<br>
-  		<a href="/"><b><i></i> Greg Surveys  </b></a>
-  		<br>
-  		<a href="/registers"> Sign Up </a>
-  		<br>
-  		<a href="/logins"> Login</a>
-  		<br>
-  		<a href="/"> About </a>
-  		
-	</div>
-
-	<div >
-		
-		<div>
 			<?php echo $this->Flash->render(); ?>
+
 			<?php echo $this->fetch('content'); ?>
 		</div>
-		
+		<div id="footer">
+			<?php echo $this->Html->link(
+					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
+					'https://cakephp.org/',
+					array('target' => '_blank', 'escape' => false, 'id' => 'cake-powered')
+				);
+			?>
+			<p>
+				<?php echo $cakeVersion; ?>
+			</p>
+		</div>
 	</div>
-
 	<?php echo $this->element('sql_dump'); ?>
-
-
-<footer >
-  <h5>Note</h5>
-  <div>
-    
-    <h5>This website is purely for educational purposes. Please do not use real login credentials or emails. </h6>
-  </div>
-</footer>
-
 </body>
 </html>

@@ -69,13 +69,12 @@ class DATABASE_CONFIG {
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'port' => '8889',
 		'host' => 'localhost',
-		'login' => 'root',
-		'password' => 'root',
-		'database' => 'surveys',
+		'login' => 'user',
+		'password' => 'password',
+		'database' => 'database_name',
 		'prefix' => '',
-		'encoding' => 'utf8',
+		//'encoding' => 'utf8',
 	);
 
 	public $test = array(

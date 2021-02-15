@@ -139,3 +139,97 @@ Stack Trace:
 #1 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RegistrationsController), Object(CakeRequest))
 #2 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2021-02-15 04:38:49 Error: [MissingControllerException] Controller class RegisterController could not be found.
+Exception Attributes: array (
+  'class' => 'RegisterController',
+  'plugin' => NULL,
+)
+Request URL: /register
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-02-15 04:38:53 Error: [MissingControllerException] Controller class AccountsController could not be found.
+Exception Attributes: array (
+  'class' => 'AccountsController',
+  'plugin' => NULL,
+)
+Request URL: /accounts
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-02-15 05:17:33 Error: [Error] Class 'AppModel' not found
+Request URL: /accounts/register
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Core/App.php(567): include()
+#1 [internal function]: App::load('Account')
+#2 [internal function]: spl_autoload_call('Account')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Utility/ClassRegistry.php(146): class_exists('Account')
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/View/Helper/FormHelper.php(163): ClassRegistry::init('Account')
+#5 /Users/greg/Repositories/greg-surveys/lib/Cake/View/Helper/FormHelper.php(204): FormHelper->_getModel('Account')
+#6 /Users/greg/Repositories/greg-surveys/lib/Cake/View/Helper/FormHelper.php(354): FormHelper->_introspectModel('Account', 'key')
+#7 /Users/greg/Repositories/greg-surveys/app/View/Accounts/register.ctp(5): FormHelper->create('Account')
+#8 /Users/greg/Repositories/greg-surveys/lib/Cake/View/View.php(971): include('/Users/greg/Rep...')
+#9 /Users/greg/Repositories/greg-surveys/lib/Cake/View/View.php(933): View->_evaluate('/Users/greg/Rep...', Array)
+#10 /Users/greg/Repositories/greg-surveys/lib/Cake/View/View.php(473): View->_render('/Users/greg/Rep...')
+#11 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#12 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AccountsController), Object(CakeRequest))
+#14 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2021-02-15 05:17:41 Error: [Error] Class 'AppModel' not found
+Request URL: /accounts/register
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Core/App.php(547): include()
+#1 [internal function]: App::load('Account')
+#2 [internal function]: spl_autoload_call('Account')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Utility/ClassRegistry.php(146): class_exists('Account')
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/View/Helper/FormHelper.php(163): ClassRegistry::init('Account')
+#5 /Users/greg/Repositories/greg-surveys/lib/Cake/View/Helper/FormHelper.php(204): FormHelper->_getModel('Account')
+#6 /Users/greg/Repositories/greg-surveys/lib/Cake/View/Helper/FormHelper.php(354): FormHelper->_introspectModel('Account', 'key')
+#7 /Users/greg/Repositories/greg-surveys/app/View/Accounts/register.ctp(5): FormHelper->create('Account')
+#8 /Users/greg/Repositories/greg-surveys/lib/Cake/View/View.php(971): include('/Users/greg/Rep...')
+#9 /Users/greg/Repositories/greg-surveys/lib/Cake/View/View.php(933): View->_evaluate('/Users/greg/Rep...', Array)
+#10 /Users/greg/Repositories/greg-surveys/lib/Cake/View/View.php(473): View->_render('/Users/greg/Rep...')
+#11 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#12 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AccountsController), Object(CakeRequest))
+#14 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2021-02-15 05:18:00 Error: [Error] Class 'AppModel' not found
+Request URL: /accounts/register
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Core/App.php(567): include()
+#1 [internal function]: App::load('Account')
+#2 [internal function]: spl_autoload_call('Account')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Utility/ClassRegistry.php(146): class_exists('Account')
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/View/Helper/FormHelper.php(163): ClassRegistry::init('Account')
+#5 /Users/greg/Repositories/greg-surveys/lib/Cake/View/Helper/FormHelper.php(204): FormHelper->_getModel('Account')
+#6 /Users/greg/Repositories/greg-surveys/lib/Cake/View/Helper/FormHelper.php(354): FormHelper->_introspectModel('Account', 'key')
+#7 /Users/greg/Repositories/greg-surveys/app/View/Accounts/register.ctp(5): FormHelper->create('Account')
+#8 /Users/greg/Repositories/greg-surveys/lib/Cake/View/View.php(971): include('/Users/greg/Rep...')
+#9 /Users/greg/Repositories/greg-surveys/lib/Cake/View/View.php(933): View->_evaluate('/Users/greg/Rep...', Array)
+#10 /Users/greg/Repositories/greg-surveys/lib/Cake/View/View.php(473): View->_render('/Users/greg/Rep...')
+#11 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#12 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AccountsController), Object(CakeRequest))
+#14 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2021-02-15 05:18:02 Error: [Error] Class 'AppModel' not found
+Request URL: /accounts/register
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Core/App.php(547): include()
+#1 [internal function]: App::load('Account')
+#2 [internal function]: spl_autoload_call('Account')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Utility/ClassRegistry.php(146): class_exists('Account')
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/View/Helper/FormHelper.php(163): ClassRegistry::init('Account')
+#5 /Users/greg/Repositories/greg-surveys/lib/Cake/View/Helper/FormHelper.php(204): FormHelper->_getModel('Account')
+#6 /Users/greg/Repositories/greg-surveys/lib/Cake/View/Helper/FormHelper.php(354): FormHelper->_introspectModel('Account', 'key')
+#7 /Users/greg/Repositories/greg-surveys/app/View/Accounts/register.ctp(5): FormHelper->create('Account')
+#8 /Users/greg/Repositories/greg-surveys/lib/Cake/View/View.php(971): include('/Users/greg/Rep...')
+#9 /Users/greg/Repositories/greg-surveys/lib/Cake/View/View.php(933): View->_evaluate('/Users/greg/Rep...', Array)
+#10 /Users/greg/Repositories/greg-surveys/lib/Cake/View/View.php(473): View->_render('/Users/greg/Rep...')
+#11 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#12 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AccountsController), Object(CakeRequest))
+#14 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}

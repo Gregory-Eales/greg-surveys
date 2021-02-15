@@ -1,17 +1,24 @@
 <?php
 App::uses('AppModel', 'Model');
 /**
- * Registration Model
+ * Account Model
  *
  */
-class Registration extends AppModel {
+class Account extends AppModel {
+
+/**
+ * Primary key field
+ *
+ * @var string
+ */
+	public $primaryKey = 'account_id';
 
 /**
  * Display field
  *
  * @var string
  */
-	public $displayField = 'id';
+	public $displayField = 'account_id';
 
 /**
  * Validation rules
@@ -19,9 +26,9 @@ class Registration extends AppModel {
  * @var array
  */
 	public $validate = array(
-		'id' => array(
-			'notBlank' => array(
-				'rule' => array('notBlank'),
+		'account_id' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,
@@ -49,9 +56,19 @@ class Registration extends AppModel {
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
 		),
+		'is_panelist' => array(
+			'boolean' => array(
+				'rule' => array('boolean'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
 		'points' => array(
-			'notBlank' => array(
-				'rule' => array('notBlank'),
+			'numeric' => array(
+				'rule' => array('numeric'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,

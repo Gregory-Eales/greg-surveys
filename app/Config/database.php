@@ -68,13 +68,12 @@ class DATABASE_CONFIG {
 
 	public $default = array(
 		'datasource' => 'Database/Mysql',
-		'persistent' => false,
+		'port' => '8889',
 		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'database_name',
-		'prefix' => '',
-		//'encoding' => 'utf8',
+		'login' => 'root',
+		'password' => 'root',
+		'database' => 'surveys',
+		'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
 	);
 
 	public $test = array(
@@ -85,6 +84,7 @@ class DATABASE_CONFIG {
 		'password' => 'password',
 		'database' => 'test_database_name',
 		'prefix' => '',
+
 		//'encoding' => 'utf8',
 	);
 }

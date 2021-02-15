@@ -1,0 +1,141 @@
+2021-02-15 00:20:02 Error: [MissingControllerException] Controller class RegisterController could not be found.
+Exception Attributes: array (
+  'class' => 'RegisterController',
+  'plugin' => NULL,
+)
+Request URL: /register
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-02-15 00:34:47 Error: [MissingControllerException] Controller class RegisterController could not be found.
+Exception Attributes: array (
+  'class' => 'RegisterController',
+  'plugin' => NULL,
+)
+Request URL: /register
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-02-15 00:34:50 Error: [MissingControllerException] Controller class RegristrationsController could not be found.
+Exception Attributes: array (
+  'class' => 'RegristrationsController',
+  'plugin' => NULL,
+)
+Request URL: /regristrations
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-02-15 00:35:35 Error: [MissingControllerException] Controller class RegristrationsController could not be found.
+Exception Attributes: array (
+  'class' => 'RegristrationsController',
+  'plugin' => NULL,
+)
+Request URL: /Regristrations
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-02-15 00:39:09 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /Registrations
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/View/View.php(933): View->_evaluate('/Users/greg/Rep...', Array)
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/View/View.php(473): View->_render('/Users/greg/Rep...')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RegistrationsController), Object(CakeRequest))
+#5 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-02-15 00:40:11 Error: [MissingControllerException] Controller class RegistrationController could not be found.
+Exception Attributes: array (
+  'class' => 'RegistrationController',
+  'plugin' => NULL,
+)
+Request URL: /Registration
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-02-15 00:42:29 Error: [ParseError] syntax error, unexpected '}', expecting ';' or ','
+Request URL: /Registrations
+Stack Trace:
+#0 [internal function]: App::load('RegistrationsCo...')
+#1 [internal function]: spl_autoload_call('RegistrationsCo...')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(266): class_exists('RegistrationsCo...')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-02-15 00:57:40 Error: [MissingControllerException] Controller class RegistrationController could not be found.
+Exception Attributes: array (
+  'class' => 'RegistrationController',
+  'plugin' => NULL,
+)
+Request URL: /Registration
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-02-15 00:57:41 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /login
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-02-15 00:57:48 Error: [MissingControllerException] Controller class LoginsController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginsController',
+  'plugin' => NULL,
+)
+Request URL: /logins
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-02-15 01:00:44 Error: [ParseError] syntax error, unexpected '}', expecting ';' or ','
+Request URL: /logins
+Stack Trace:
+#0 [internal function]: App::load('LoginsControlle...')
+#1 [internal function]: spl_autoload_call('LoginsControlle...')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(266): class_exists('LoginsControlle...')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-02-15 01:08:22 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /login
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-02-15 01:08:23 Error: [MissingControllerException] Controller class RegisterController could not be found.
+Exception Attributes: array (
+  'class' => 'RegisterController',
+  'plugin' => NULL,
+)
+Request URL: /register
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-02-15 01:08:28 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /registrations
+Stack Trace:
+#0 [internal function]: App::load('RegistrationsCo...')
+#1 [internal function]: spl_autoload_call('RegistrationsCo...')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(266): class_exists('RegistrationsCo...')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-02-15 01:08:49 Error: [MissingActionException] Action RegistrationsController::logins() could not be found.
+Exception Attributes: array (
+  'controller' => 'RegistrationsController',
+  'action' => 'logins',
+)
+Request URL: /registrations/logins
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RegistrationsController), Object(CakeRequest))
+#2 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

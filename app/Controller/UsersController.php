@@ -125,7 +125,7 @@ class UsersController extends AppController {
 				
 				if($this->Auth->login())
 				{
-					return $this->redirect($this->Auth->redirectUrl());
+					return $this->redirect('/surveys/index');
 				} else
 				{
 					$this->Session->setFlash('<div class="flash">invalid username or password</div>');
@@ -135,8 +135,9 @@ class UsersController extends AppController {
 	}
 
 	public function logout()
-	{
+	{	
 		$this->Auth->logout();
+		$this->Session->setFlash('<div class="flash"> You have been logged out!</div>');
 		$this->redirect('/users/login');
 	}
 

@@ -33,6 +33,12 @@ App::uses('Controller', 'Controller');
 class AppController extends Controller {
 
 	public $components = array(
-		'Session', 'Auth',
+		'Session',
+		'Auth',
 	);
+
+	public function beforeFilter()
+	{
+		$this->Auth->allow('about');
+	}
 }

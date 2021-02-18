@@ -998,3 +998,241 @@ Request URL: /apple-touch-icon.png
 Stack Trace:
 #0 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2021-02-18 04:05:51 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'Survey'
+Request URL: /surveys
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Survey`...', Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Survey`...', Array, Array)
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Survey`...', Array)
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Survey), Array)
+#5 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#6 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Component/PaginatorComponent.php(212): Model->find('all', Array)
+#7 /Users/greg/Repositories/greg-surveys/app/Controller/SurveysController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: SurveysController->index()
+#9 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(SurveysController), Array)
+#10 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveysController), Object(CakeRequest))
+#12 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-02-18 04:08:00 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'Survey'
+Request URL: /surveys
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Survey`...', Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Survey`...', Array, Array)
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Survey`...', Array)
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Survey), Array)
+#5 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#6 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Component/PaginatorComponent.php(212): Model->find('all', Array)
+#7 /Users/greg/Repositories/greg-surveys/app/Controller/SurveysController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: SurveysController->index()
+#9 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(SurveysController), Array)
+#10 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveysController), Object(CakeRequest))
+#12 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-02-18 04:08:01 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'Survey'
+Request URL: /surveys
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Survey`...', Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Survey`...', Array, Array)
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Survey`...', Array)
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Survey), Array)
+#5 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#6 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Component/PaginatorComponent.php(212): Model->find('all', Array)
+#7 /Users/greg/Repositories/greg-surveys/app/Controller/SurveysController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: SurveysController->index()
+#9 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(SurveysController), Array)
+#10 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveysController), Object(CakeRequest))
+#12 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-02-18 04:08:29 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'Survey'
+Request URL: /surveys
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Survey`...', Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Survey`...', Array, Array)
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Survey`...', Array)
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Survey), Array)
+#5 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#6 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Component/PaginatorComponent.php(212): Model->find('all', Array)
+#7 /Users/greg/Repositories/greg-surveys/app/Controller/SurveysController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: SurveysController->index()
+#9 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(SurveysController), Array)
+#10 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveysController), Object(CakeRequest))
+#12 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-02-18 04:08:40 Error: [MissingControllerException] Controller class SurveyController could not be found.
+Exception Attributes: array (
+  'class' => 'SurveyController',
+  'plugin' => NULL,
+)
+Request URL: /survey
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-02-18 04:09:13 Error: [MissingControllerException] Controller class SurveyController could not be found.
+Exception Attributes: array (
+  'class' => 'SurveyController',
+  'plugin' => NULL,
+)
+Request URL: /survey
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-02-18 04:27:35 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'Survey'
+Request URL: /surveys
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Survey`...', Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Survey`...', Array, Array)
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Survey`...', Array)
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Survey), Array)
+#5 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#6 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Component/PaginatorComponent.php(212): Model->find('all', Array)
+#7 /Users/greg/Repositories/greg-surveys/app/Controller/SurveysController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: SurveysController->index()
+#9 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(SurveysController), Array)
+#10 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveysController), Object(CakeRequest))
+#12 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-02-18 04:28:27 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'Survey'
+Request URL: /surveys
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Survey`...', Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Survey`...', Array, Array)
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Survey`...', Array)
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Survey), Array)
+#5 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#6 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Component/PaginatorComponent.php(212): Model->find('all', Array)
+#7 /Users/greg/Repositories/greg-surveys/app/Controller/SurveysController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: SurveysController->index()
+#9 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(SurveysController), Array)
+#10 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveysController), Object(CakeRequest))
+#12 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-02-18 04:28:28 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'Survey'
+Request URL: /surveys
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Survey`...', Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Survey`...', Array, Array)
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Survey`...', Array)
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Survey), Array)
+#5 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#6 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Component/PaginatorComponent.php(212): Model->find('all', Array)
+#7 /Users/greg/Repositories/greg-surveys/app/Controller/SurveysController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: SurveysController->index()
+#9 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(SurveysController), Array)
+#10 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveysController), Object(CakeRequest))
+#12 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-02-18 04:29:23 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Survey.id' in 'field list'
+Request URL: /surveys/add
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Survey`...', Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Survey`...', Array, Array)
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Survey`...', Array)
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Survey), Array)
+#5 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3025): Model->_readDataSource('list', Array)
+#6 /Users/greg/Repositories/greg-surveys/app/Controller/SurveysController.php(58): Model->find('list')
+#7 [internal function]: SurveysController->add()
+#8 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(SurveysController), Array)
+#9 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveysController), Object(CakeRequest))
+#11 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2021-02-18 04:32:33 Error: [Error] Call to a member function find() on null
+Request URL: /surveys/add
+Stack Trace:
+#0 [internal function]: SurveysController->add()
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(SurveysController), Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveysController), Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-02-18 04:32:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.account_id' in 'on clause'
+Request URL: /surveys
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Survey`...', Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Survey`...', Array, Array)
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Survey`...', Array)
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Survey), Array)
+#5 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#6 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Component/PaginatorComponent.php(212): Model->find('all', Array)
+#7 /Users/greg/Repositories/greg-surveys/app/Controller/SurveysController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: SurveysController->index()
+#9 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(SurveysController), Array)
+#10 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveysController), Object(CakeRequest))
+#12 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-02-18 04:32:41 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.account_id' in 'on clause'
+Request URL: /surveys
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Survey`...', Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Survey`...', Array, Array)
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Survey`...', Array)
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Survey), Array)
+#5 /Users/greg/Repositories/greg-surveys/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#6 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Component/PaginatorComponent.php(212): Model->find('all', Array)
+#7 /Users/greg/Repositories/greg-surveys/app/Controller/SurveysController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: SurveysController->index()
+#9 /Users/greg/Repositories/greg-surveys/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(SurveysController), Array)
+#10 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveysController), Object(CakeRequest))
+#12 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-02-18 04:53:25 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: App::load('AppController')
+#1 /Users/greg/Repositories/greg-surveys/app/Controller/UsersController.php(26): spl_autoload_call('AppController')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Core/App.php(567): include('/Users/greg/Rep...')
+#3 [internal function]: App::load('UsersController')
+#4 [internal function]: spl_autoload_call('UsersController')
+#5 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#6 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#7 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#8 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2021-02-18 04:53:25 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2021-02-18 04:53:25 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /users/login
+Stack Trace:
+#0 /Users/greg/Repositories/greg-surveys/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/greg/Repositories/greg-surveys/lib/Cake/Core/App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2021-02-18 04:58:36 Error: [ParseError] syntax error, unexpected '}', expecting ';' or ','
+Request URL: /surveys/index
+Stack Trace:
+#0 [internal function]: App::load('SurveysControll...')
+#1 [internal function]: spl_autoload_call('SurveysControll...')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(266): class_exists('SurveysControll...')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-02-18 05:17:15 Error: [ParseError] syntax error, unexpected ':', expecting ']'
+Request URL: /surveys
+Stack Trace:
+#0 [internal function]: App::load('SurveysControll...')
+#1 [internal function]: spl_autoload_call('SurveysControll...')
+#2 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(266): class_exists('SurveysControll...')
+#3 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/greg/Repositories/greg-surveys/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/greg/Repositories/greg-surveys/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}

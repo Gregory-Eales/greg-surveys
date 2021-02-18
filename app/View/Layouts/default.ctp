@@ -35,16 +35,39 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 
 	 <div class="topnav">
 	  <a class="active" href="/">
+
 	  	<?php
-	  	echo $this->Html->image('Logo.png', array(
-	  		'alt' => 'CakePHP', 'border' => '0', 'data-src' => 'holder.js/100%x100', 'height' => 50
-	  	)
-	  	);
+		  	echo $this->Html->image(
+		  		'Logo.png',
+		  		array(
+		  			'alt' => 'CakePHP', 
+		  			'border' => '0',
+		  			'data-src' => 'holder.js/100%x100',
+		  			'height' => 50
+		  		)
+		  	);
 	  	?>
+
 	  </a>
+
 	  <a href="/about">About</a>
-	  <a href="/users/register">Register</a>
-	  <a href="/users/login">Login</a>
+
+
+	  <?php
+
+	  	if(AuthComponent::user())
+	  	{
+	  		echo '<a href="/users/logout">Logout</a>';
+	  		echo '<a href="/surveys">Surveys</a>';
+	  	}else
+	  	{
+	  		echo '<a href="/users/register">Register</a>';
+	  		echo '<a href="/users/login">Login</a>';
+	  	}
+	  	
+
+	  ?>
+	  
 	  	  
 	</div> 
 

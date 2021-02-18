@@ -3,11 +3,23 @@ App::uses('AppModel', 'Model');
 /**
  * Survey Model
  *
- * @property Survey $Survey
  * @property User $User
- * @property Survey $Survey
  */
 class Survey extends AppModel {
+
+/**
+ * Primary key field
+ *
+ * @var string
+ */
+	public $primaryKey = 'survey_id';
+
+/**
+ * Display field
+ *
+ * @var string
+ */
+	public $displayField = 'title';
 
 /**
  * Validation rules
@@ -75,13 +87,6 @@ class Survey extends AppModel {
  * @var array
  */
 	public $belongsTo = array(
-		'Survey' => array(
-			'className' => 'Survey',
-			'foreignKey' => 'survey_id',
-			'conditions' => '',
-			'fields' => '',
-			'order' => ''
-		),
 		'User' => array(
 			'className' => 'User',
 			'foreignKey' => 'user_id',
@@ -90,26 +95,4 @@ class Survey extends AppModel {
 			'order' => ''
 		)
 	);
-
-/**
- * hasMany associations
- *
- * @var array
- */
-	public $hasMany = array(
-		'Survey' => array(
-			'className' => 'Survey',
-			'foreignKey' => 'survey_id',
-			'dependent' => false,
-			'conditions' => '',
-			'fields' => '',
-			'order' => '',
-			'limit' => '',
-			'offset' => '',
-			'exclusive' => '',
-			'finderQuery' => '',
-			'counterQuery' => ''
-		)
-	);
-
 }

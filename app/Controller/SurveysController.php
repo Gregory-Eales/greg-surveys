@@ -56,8 +56,8 @@ class SurveysController extends AppController {
 			}
 		}
 		$surveys = $this->Survey->Survey->find('list');
-		$accounts = $this->Survey->Account->find('list');
-		$this->set(compact('surveys', 'accounts'));
+		$users = $this->Survey->User->find('list');
+		$this->set(compact('surveys', 'users'));
 	}
 
 /**
@@ -83,8 +83,8 @@ class SurveysController extends AppController {
 			$this->request->data = $this->Survey->find('first', $options);
 		}
 		$surveys = $this->Survey->Survey->find('list');
-		$accounts = $this->Survey->Account->find('list');
-		$this->set(compact('surveys', 'accounts'));
+		$users = $this->Survey->User->find('list');
+		$this->set(compact('surveys', 'users'));
 	}
 
 /**

@@ -72,7 +72,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => 'root',
-		'database' => 'surveys',
+		'database' => 'greg_surveys',
 		'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
 	);
 

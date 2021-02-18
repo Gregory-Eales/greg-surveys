@@ -13,7 +13,7 @@ class SurveysControllerTest extends ControllerTestCase {
  */
 	public $fixtures = array(
 		'app.survey',
-		'app.account'
+		'app.user'
 	);
 
 /**

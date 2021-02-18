@@ -4,7 +4,7 @@ App::uses('AppModel', 'Model');
  * Survey Model
  *
  * @property Survey $Survey
- * @property Account $Account
+ * @property User $User
  * @property Survey $Survey
  */
 class Survey extends AppModel {
@@ -25,7 +25,7 @@ class Survey extends AppModel {
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
 		),
-		'account_id' => array(
+		'user_id' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
 				//'message' => 'Your custom message here',
@@ -82,9 +82,9 @@ class Survey extends AppModel {
 			'fields' => '',
 			'order' => ''
 		),
-		'Account' => array(
-			'className' => 'Account',
-			'foreignKey' => 'account_id',
+		'User' => array(
+			'className' => 'User',
+			'foreignKey' => 'user_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
